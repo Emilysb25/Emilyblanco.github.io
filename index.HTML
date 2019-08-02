@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Emily's Website</title>
+    <link rel="stylesheet" href="design.css">
+    <script scr="website_javascript.js"></script>
+
+
+
+  </head>
+    <body background="color1.jpg">
+      <h1 style="background-color: #FF4233">WELCOME TO EMILY'S WEBSITE!!!</h1>
+    </body>
+    <hr></hr>
+    <br>
+
+<body>
+    <div>
+      <div class="color" onclick="change_div_color()">
+  <img class="Welcome1" src= "Welcome1.gif">
+      <img class="ME" src= "ME.jpg">
+
+      <h2 style="text-align:center">Get To Know Me:</h3>
+      <p style="text-align:center" color =white> Hello!My name is Emily Blanco. I was born and raised in the Bronx. I am currently a rising senior at Westchester Square Academy. I am apart of different programs such as NYC GREAT!, Youth boxing for change, and Girls Who Code. </p>
+
+      <hr></hr>
+        <br>
+          <div>
+            <h2 style="text-align:center">Places I've Visited:</h2>
+  <img class="travel1" src= "travel1.gif">
+
+                  <ul style="text-align:center; list-style-type: none;">
+                    <li>California(LA) </li>
+                    <li>(Venice Beach)</li>
+                    <li>(Little Tokoyo)</li>
+                    <li>(Griffith Observatory)</li>
+                    <li>(Runyon Canoyon)</li>
+                    <li>(Santa Monica Pier)</li>
+                    <li>Women In The World Convension</li>
+                    <li>2019 Womens March</li>
+                    <li>Teens Take Over The MET</li>
+                    <li>CNN NYC Headquarters</li>
+
+                  </ul>
+
+  <hr></hr>
+    <br>
+      <div>
+        <h2 style="text-align:center">Fav Shows/Movies</h2>
+        <script>
+            var i = 0;
+            var images =[];
+            var time = 4000;
+
+            images[0] = 'slideshow1.gif';
+            images[1] = 'slideshow2.gif';
+            images[2] = 'slideshow3.gif';
+            images[3] = 'slideshow4.gif';
+            images[4] = 'dw.gif';
+
+          function changeImg(){
+              document.slide.src = images[i];
+              if(i < images.length - 1){
+                i++;
+              } else {
+                i=0;
+              }
+              setTimeout("changeImg()", time);
+            }
+            window.onload = changeImg;
+        </script>
+
+
+        <img name="slide" width="650" height="500"/>
+
+              <ul style="text-align:center; list-style-type: none;">
+                <li>Shameless</li>
+                <li>The Office</li>
+                <li>Money Heist</li>
+                <li>You</li>
+                <li>Orange Is The New Black</li>
+                <li>Dark</li>
+                <li>Park And Recreation</li>
+                <li>The End Of The F**ing World</li>
+                <li>Dear White People</li>
+                <li>Hunter x Hunter</li>
+                <li>Black Mirror</li>
+                <li>Jojo's Bizzara Adventure</li>
+                <li>Hero Academia</li>
+                <li>The promised Neverland</li>
+              </ul>
+
+              <hr></hr>
+                <br>
+                  <div>
+                    <h2 style="text-align:center">Here are some memes/pictures</h2>
+                        <img class="BB" src= "BB.jpg">
+                          <img class="CC" src= "CC.jpg">
+                            <img class="DD" src= "DD.jpg">
+                              <img class="EE" src= "EE.jpg">
+                                <<img class="FF" src= "FF.jpg">
+                  </div>
+                  <hr></hr>
+    <h2 style="text-align:center">ok thats it bye now:</h2>
+        <img class="end1" src= "End1.gif">
+          <p style="text-align:center" color =Black> Follow me on IG @Emilysb </p>
+
+      </body>
